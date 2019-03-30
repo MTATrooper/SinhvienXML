@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <DANTOC>
+    <ID>1</ID>
+    <TENDT>Kinh</TENDT>
+  </DANTOC>
+  <DANTOC>
+    <ID>2</ID>
+    <TENDT>Dao</TENDT>
+  </DANTOC>
+  <DANTOC>
+    <ID>3</ID>
+    <TENDT>Mường</TENDT>
+  </DANTOC>
+  <DANTOC>
+    <ID>4</ID>
+    <TENDT>Ê đê</TENDT>
+  </DANTOC>
+  <DANTOC>
+    <ID>5</ID>
+    <TENDT>Tày</TENDT>
+  </DANTOC>
+</Table>

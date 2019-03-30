@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Student>
+    <ID>1</ID>
+    <TENSV>Phạm Đức Long</TENSV>
+    <NGAYSINH>2019-03-20</NGAYSINH>
+    <QUEQUAN>Ninh Bình</QUEQUAN>
+    <MADANTOC>1</MADANTOC>
+    <MALOP>1</MALOP>
+  </Student>
+  <Student>
+    <ID>2</ID>
+    <TENSV>Tăng Đại Dương</TENSV>
+    <NGAYSINH>2019-03-21</NGAYSINH>
+    <QUEQUAN>Nam Định</QUEQUAN>
+    <MADANTOC>2</MADANTOC>
+    <MALOP>3</MALOP>
+  </Student>
+  <Student>
+    <ID>3</ID>
+    <TENSV>Trần Công Luận</TENSV>
+    <NGAYSINH>2019-03-06</NGAYSINH>
+    <QUEQUAN>Ninh Bình</QUEQUAN>
+    <MADANTOC>3</MADANTOC>
+    <MALOP>2</MALOP>
+  </Student>
+  <Student>
+    <ID>4</ID>
+    <TENSV>Đỗ Đức Long</TENSV>
+    <NGAYSINH>2018-02-14</NGAYSINH>
+    <QUEQUAN>Hưng Yên</QUEQUAN>
+    <MADANTOC>4</MADANTOC>
+    <MALOP>4</MALOP>
+  </Student>
+  <Student>
+    <ID>5</ID>
+    <TENSV>Nguyễn Đình Hoàng</TENSV>
+    <NGAYSINH>2018-02-15</NGAYSINH>
+    <QUEQUAN>Thanh Hóa</QUEQUAN>
+    <MADANTOC>5</MADANTOC>
+    <MALOP>5</MALOP>
+  </Student>
+</Table>

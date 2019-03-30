@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <LOP>
+    <ID>1</ID>
+    <TENLOP>Công nghệ thông tin</TENLOP>
+  </LOP>
+  <LOP>
+    <ID>2</ID>
+    <TENLOP>Bảo đảm an toàn thông tin</TENLOP>
+  </LOP>
+  <LOP>
+    <ID>3</ID>
+    <TENLOP>An ninh hệ thống thông tin</TENLOP>
+  </LOP>
+  <LOP>
+    <ID>4</ID>
+    <TENLOP>Địa tin học</TENLOP>
+  </LOP>
+  <LOP>
+    <ID>5</ID>
+    <TENLOP>Thông tin</TENLOP>
+  </LOP>
+</Table>

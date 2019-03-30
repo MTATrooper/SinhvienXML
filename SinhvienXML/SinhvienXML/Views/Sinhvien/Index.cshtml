@@ -1,0 +1,87 @@
+﻿@model List<SinhvienXML.Models.Sinhvien>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/Sinhvien.js"></script>
+<link href="~/Content/sinhvien.css" rel="stylesheet" />
+<h2>Danh sách sinh viên</h2>
+<div class="col-md-6" style="margin-top:10px; margin-bottom: 15px">
+    @*@Html.ActionLink("Create New", "Create")*@
+    <button class="btn-success" id="addSV" style="height:50px" onclick="addSV()"><h4>Thêm sinh viên</h4></button>
+</div>
+<div class="col-md-6" style="margin-top:10px; padding-top:5px"><input type="text" id="searchBox" class="col-md-6" style="height:35px" placeholder="Tìm kiếm" onkeyup="Search()"></div>
+<div class="col-md-12" style="border:double; margin-bottom:20px">
+    <div class="col-md-6" style="margin-top:10px;">
+        <div class="col-md-4"><label style="float:left"><h4>Tên sinh viên</h4></label></div>
+        <input class="form-control" id="tensv" type="text" class="col-md-6" style="margin-left:20px; height:35px" />
+    </div>
+    <div class="col-md-6" style="margin-top:10px;">
+        <div class="col-md-4"><label style="float:left"><h4>Ngày sinh</h4></label></div>
+        <input id="ngaysinh" type="date" class="col-md-6" style="margin-left:20px; height:35px" />
+    </div>
+    <div class="col-md-6" style="margin-top:10px;">
+        <div class="col-md-4"><label style="float:left"><h4>Quê quán</h4></label></div>
+        <input class="form-control" id="que" type="text" class="col-md-6" style="margin-left:20px; height:35px" />
+    </div>
+    <div class="col-md-6" style="margin-top:10px;">
+        <div class="col-md-4"><label style="float:left"><h4>Dân tộc</h4></label></div>
+        @*<input id="dantoc" type="text" class="col-md-6" style="margin-left:20px; height:35px" />*@
+        @Html.DropDownList("MADANTOC", null, htmlAttributes: new { @id = "dantoc", @class = "form-control" })
+    </div>
+    <div class="col-md-6" style="margin-top:10px;">
+        <div class="col-md-4"><label style="float:left"><h4>Lớp</h4></label></div>
+        @*<input id="lop" type="text" class="col-md-6" style="margin-left:20px; height:35px" />*@
+        @Html.DropDownList("MALOP", null, htmlAttributes: new { @id = "lop", @class = "form-control" })
+    </div>
+    <div class="col-md-6" style="margin-top:10px;">
+        <button id="save" class="btn-success" style="width:70px; height:40px;margin-left:50px">Save</button>
+        <button id="cancel" class="btn-success" style="width:70px; height:40px;margin-left:20px">Cancel</button>
+    </div>
+</div>
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th>
+                Họ và tên
+            </th>
+            <th>
+                Lớp
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+                Quê quán
+            </th>
+            <th>
+                Dân tộc
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+        @*@foreach(var item in Model)
+            {
+                <tr>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.TENSV)
+                    </th>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.LOP.TENLOP)
+                    </th>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.NGAYSINH)
+                    </th>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.QUEQUAN)
+                    </th>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.DANTOC.TENDT)
+                    </th>
+                    <th>
+                        <button onclick="Hienthi(@item.ID)">Xem</button>
+                        <button onclick="Delete(@item.ID)">Xóa</button>
+                    </th>
+                </tr>
+            }*@
+    </tbody>
+</table>
